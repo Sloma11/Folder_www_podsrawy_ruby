@@ -1,0 +1,60 @@
+<style>
+  body
+  {
+      background-color: #000000;
+      color: #FFFFFF;
+
+  }
+  h1
+  {
+      text-align: center;
+  }
+  #container
+  {
+      width: 1000px;
+      margin: 0 auto;
+      border: #999999 solid 2px;
+      height: 200px;
+      padding: 20px;
+  }
+  #tresc
+  {
+      width: 870px;
+      float: left;
+
+  }
+  #link
+  {
+       width: 120px;
+       float: left;
+      height: 200px;
+      border-left: #999999 solid 1px;
+  }
+
+</style>
+<body>
+  <div id="container">
+    <div id="tresc">
+      <h1>Moja Strona</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis sollicitudin hendrerit.
+        Donec nec interdum leo. Aliquam quis leo at sapien sodales semper. Morbi non dictum libero, in hendrerit erat.
+        Donec sagittis elementum consectetur. Phasellus tincidunt ultricies magna, vel aliquam dolor molestie non.
+        Proin enim orci, vulputate condimentum bibendum nec, congue vitae lacus. Mauris laoreet est eros,
+        non tempus tortor vestibulum ullamcorper. Nunc luctus nibh in massa dapibus hendrerit.
+        Cras tempus magna ac ex ullamcorper, quis consequat lectus efficitur. Integer auctor viverra mi in tempus.
+      </p>
+      <br>
+    </div>
+
+    <div id="link">
+      <h1>Menu</h1>
+      <ul>
+        <li>  <%= link_to "Moja strona", moja_strona_path %></li>
+        <li>  <%= link_to "Kontakt", kontakt_path  %></li>
+      </ul>
+    </div>
+
+
+  </div>
+</body>
+

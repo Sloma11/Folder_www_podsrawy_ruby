@@ -1,0 +1,64 @@
+<style>
+    body
+    {
+        background-color: #000000;
+        color: #FFFFFF;
+
+    }
+    h1
+    {
+        text-align: center;
+    }
+    #container
+    {
+        width: 1000px;
+        margin: 0 auto;
+        border: #999999 solid 2px;
+        height: 200px;
+        padding: 20px;
+    }
+    #tresc
+    {
+        width: 870px;
+        float: left;
+
+    }
+    #link
+    {
+        width: 120px;
+        float: left;
+        height: 200px;
+        border-left: #999999 solid 1px;
+    }
+    #email
+    {
+        margin-left: 100px;
+    }
+</style>
+<body>
+<div id="container">
+  <div id="tresc">
+    <h1>Kontakt</h1>
+    <div id="email">
+        <p>
+          Zapraszam do kontaktu:
+        </p>
+        <p>
+          kapikap1@live.com
+        </p>
+    </div>
+    <br>
+  </div>
+
+  <div id="link">
+    <h1>Menu</h1>
+    <ul>
+      <li>  <%= link_to "Moja strona", moja_strona_path %></li>
+      <li>  <%= link_to "Kontakt", kontakt_path  %></li>
+    </ul>
+  </div>
+
+
+</div>
+</body>
+
